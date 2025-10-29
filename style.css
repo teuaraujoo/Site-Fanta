@@ -7,7 +7,7 @@
     font-family: Product Sans;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
 html, body { /* Define altura e largura de todo o site como 100% */
@@ -26,13 +26,13 @@ body::-webkit-scrollbar {
 }
 
 .nav-container {
-    position: fixed; /* Fixa o menu na tela */
+    position: fixed; 
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Espaça os itens igualmente */
-    width: 100%; /* Ocupa toda a largura da tela */
-    height: 10vh;   /* Ocupa quase toda a altura da tela */
-    z-index: 99; /* Garante que o menu fique acima de outros elementos */
+    justify-content: space-between; 
+    width: 100%; 
+    height: 10vh;   
+    z-index: 99; 
 }
 
 .nav-container img {
@@ -97,6 +97,13 @@ body::-webkit-scrollbar {
     transform: rotate(60deg);
 }
 
+#folha2 {
+    position: absolute;
+    width: 10%;
+    top: 70%;
+    right: 10%;
+    transform: rotate(-90deg);
+}
 
 #folha3 {
     position: absolute;
@@ -105,13 +112,6 @@ body::-webkit-scrollbar {
     right: 0%;
 }
 
-#folha2 {
-    position: absolute;
-    width: 10%;
-    top: 70%;
-    right: 10%;
-    transform: rotate(-90deg);
-}
 
 /* Segunda sessão */
 
@@ -189,6 +189,7 @@ body::-webkit-scrollbar {
     color: white;
     padding: 1vw 2vw;
     width: 10vw;
+    cursor: pointer;
     transition: all 0.5s ease;
 }
 
